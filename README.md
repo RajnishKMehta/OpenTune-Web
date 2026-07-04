@@ -1,130 +1,181 @@
-# OpenTune
+# OpenTune Web 🌐
 
 <div align="center">
   <img src="./icon/icon-512-maskable.png" alt="OpenTune Logo" width="120"/>
   
-  **Un cliente de YouTube Music con Material Design 3, para Android**
+  **Sitio Web Oficial de OpenTune**
   
-  [![Android](https://img.shields.io/badge/Platform-Android-brightgreen.svg)](https://android.com)
-  [![Material Design 3](https://img.shields.io/badge/Design-Material%20Design%203-blue.svg)](https://m3.material.io/)
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-  [![GitHub stars](https://img.shields.io/github/stars/Arturo254/OpenTune.svg)](https://github.com/Arturo254/OpenTune/stargazers)
+  El cliente de YouTube Music más moderno y ligero para Android
   
-  [📱 Descargar APK](https://github.com/Arturo254/OpenTune/releases) • [🌐 Sitio Web](https://opentune.arturodev.com) • [📋 Reportar Bug](https://opentune.arturodev.com/from.html)
+  [![Website](https://img.shields.io/badge/Website-opentune.netlify.app-brightgreen.svg)](https://opentune.netlify.app/)
+  [![HTML5](https://img.shields.io/badge/HTML-5-E34C26.svg)](https://html5.org/)
+  [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC.svg)](https://tailwindcss.com/)
+  [![License](https://img.shields.io/badge/License-GPL%203.0-yellow.svg)](./LICENSE)
+  [![GitHub stars](https://img.shields.io/github/stars/Arturo254/OpenTune-Web.svg)](https://github.com/Arturo254/OpenTune-Web/stargazers)
+  
+  [🌐 Visitar Sitio Web](https://opentune.netlify.app/) • [📱 Descargar APK](https://github.com/Arturo254/OpenTune/releases) • [🐛 Reportar Bug](https://opentune.netlify.app/from.html)
 </div>
 
-## ✨ Características Principales
+---
 
-### 🎨 **Diseño Moderno**
-- **Material Design 3**: Interfaz moderna con colores vivos y transiciones suaves
-- **Tema adaptable**: Soporte para modo claro y oscuro
-- **Interfaz intuitiva**: Navegación simplificada y personalizable
+## 📖 Acerca de Este Proyecto
 
-### 🎵 **Funciones Musicales**
-- **Reproducción de alta calidad**: Audio optimizado para diferentes dispositivos
-- **Búsqueda avanzada**: Explora un amplio catálogo musical
-- **Recomendaciones inteligentes**: Basadas en tus preferencias y hábitos
-- **Listas de reproducción**: Crea y organiza tu música favorita
-- **Descargas offline**: Escucha sin conexión a internet
+**OpenTune-Web** es el repositorio del sitio web oficial de [OpenTune](https://github.com/Arturo254/OpenTune), una aplicación Android innovadora para reproducir música de YouTube Music con una interfaz moderna basada en Material Design 3.
 
-### 🔧 **Funcionalidades Avanzadas**
-- **Control por voz**: Maneja la reproducción con comandos de voz
-- **Soporte Chromecast**: Transmite a dispositivos externos
-- **Conectividad Bluetooth**: Reproduce en dispositivos inalámbricos
-- **Gestión de biblioteca**: Organización avanzada con filtros
-- **Sincronización**: Integración completa con tu cuenta de YouTube Music
+Este sitio web sirve como:
+- **Portal oficial** del proyecto OpenTune
+- **Centro de información** sobre características y descargas
+- **Página de contacto** y soporte al usuario
+- **Vitrina del proyecto** para la comunidad
 
-### 🌍 **Soporte Internacional**
-- **Multilingüe**: Español, English, Português
-- **Localización cultural**: Traducciones precisas y relevantes
-- **Actualizaciones continuas**: Mejoras regulares y nuevas funciones
+---
 
-## 📱 Capturas de Pantalla
+## ✨ Características del Sitio Web
 
-<div align="center">
-  <img src="./img/mock.png" alt="OpenTune Preview" width="300"/>
-</div>
+- 🎨 **Diseño Responsivo**: Adaptado perfectamente a dispositivos móviles, tablets y escritorio
+- ⚡ **Rendimiento Optimizado**: Sitio ligero y rápido alojado en Netlify
+- 🎯 **Interfaz Intuitiva**: Fácil navegación y acceso a información clave
+- 🌍 **Multilingüe**: Soporte para múltiples idiomas
+- 📱 **Links de Descarga**: Acceso directo a releases y APKs
+- 💬 **Formularios de Contacto**: Canal directo para reportes de bugs y solicitudes
 
-## 🚀 Instalación
-
-### Android
-1. Descarga el APK desde [Releases](https://github.com/Arturo254/OpenTune/releases)
-2. Habilita la instalación de aplicaciones de fuentes desconocidas
-3. Instala el archivo APK descargado
-4. ¡Disfruta de OpenTune!
-
-### Windows
-1. Descarga el archivo EXE desde [Releases](https://github.com/Arturo254/OpenTune/releases)
-2. Ejecuta el instalador
-3. Sigue las instrucciones de instalación
+---
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Android**: Kotlin
-- **UI/UX**: Material Design 3
-- **Backend**: API de YouTube Music
-- **Web**: HTML5, CSS3, JavaScript
-- **Frameworks**: BeerCSS, Material Icons
+| Tecnología | Descripción |
+|-----------|------------|
+| **HTML5** | Estructura semántica y moderna |
+| **CSS3 / TailwindCSS** | Estilos responsive y utilidades |
+| **JavaScript** | Interactividad y funcionalidad dinámica |
+| **OpenAI** | Integración de IA (si aplica) |
+| **Netlify** | Hosting y deployment automático |
 
-## 📋 Requisitos del Sistema
+---
 
-### Android
-- Android 6.0 (API nivel 23) o superior
-- 50 MB de espacio libre
-- Conexión a internet para streaming
+## 🚀 Instalación y Ejecución Local
 
-### Windows
-- Windows 10 o superior
-- 100 MB de espacio libre
-- Conexión a internet
+### Requisitos Previos
+- Node.js 16+ (opcional, para compilar Tailwind)
+- Un navegador web moderno
+- Git
+
+### Pasos
+
+1. **Clonar el repositorio**
+```bash
+git clone https://github.com/Arturo254/OpenTune-Web.git
+cd OpenTune-Web
+```
+
+2. **Instalar dependencias** (si las hay)
+```bash
+npm install
+```
+
+3. **Ejecutar localmente** (con un servidor local)
+```bash
+# Opción 1: Usar Python
+python -m http.server 8000
+
+# Opción 2: Usar Live Server (VS Code extension)
+# O cualquier otro servidor local
+```
+
+4. **Abrir en el navegador**
+```
+http://localhost:8000
+```
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+OpenTune-Web/
+├── index.html          # Página principal
+├── css/                # Estilos (TailwindCSS)
+├── js/                 # Scripts de JavaScript
+├── img/                # Imágenes y assets
+├── icon/               # Logo e iconos
+└── README.md           # Este archivo
+```
+
+---
 
 ## 🤝 Contribuir
 
-¡Las contribuciones son bienvenidas! Si quieres contribuir al proyecto:
+¡Las contribuciones son bienvenidas! Si quieres mejorar el sitio web:
 
-1. Haz fork del repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/nueva-caracteristica`)
-3. Commit tus cambios (`git commit -am 'Añadir nueva característica'`)
-4. Push a la rama (`git push origin feature/nueva-caracteristica`)
-5. Abre un Pull Request
+1. **Haz fork** del repositorio
+2. **Crea una rama** para tu feature (`git checkout -b feature/mi-mejora`)
+3. **Realiza tus cambios** y commit (`git commit -am 'Añadir mi mejora'`)
+4. **Push a tu rama** (`git push origin feature/mi-mejora`)
+5. **Abre un Pull Request**
 
-### 🐛 Reportar Problemas
-- [Reportar un bug](https://opentune.netlify.app/from.html)
-- [Solicitar una característica](https://opentune.netlify.app/from)
+### Áreas de Contribución
+- 🎨 Mejoras de diseño y UI/UX
+- 🐛 Fixes de bugs
+- 🌍 Traduciones adicionales
+- ⚡ Optimización de rendimiento
+- 📝 Documentación
+
+---
+
+## 🐛 Reportar Problemas
+
+Si encuentras un bug en el sitio web:
+
+1. Verifica que no esté [reportado](https://github.com/Arturo254/OpenTune-Web/issues)
+2. [Abre un nuevo issue](https://github.com/Arturo254/OpenTune-Web/issues/new) con detalles
+3. O usa nuestro [formulario de contacto](https://opentune.netlify.app/from.html)
+
+---
 
 ## 📞 Contacto y Soporte
 
 - **Desarrollador**: [Arthur Dev Studio](https://g.dev/Arturo254)
 - **WhatsApp**: [+55 76 8479-25](https://wa.me/5576847925)
 - **GitHub**: [@Arturo254](https://github.com/Arturo254)
-- **Sitio Web**: [opentune.netlify.app](https://opentune.netlfy.app)
+- **Sitio Web**: [opentune.netlify.app](https://opentune.netlify.app/)
+- **Correo**: Contacto disponible en el sitio web
+
+---
+
+## 📱 Sobre OpenTune
+
+¿Buscas la **aplicación Android**? Visita el repositorio principal:
+👉 [Arturo254/OpenTune](https://github.com/Arturo254/OpenTune)
+
+**Características principales:**
+- 🎵 Cliente de YouTube Music con Material Design 3
+- 🔊 Reproducción de alta calidad
+- 📥 Descargas offline
+- 🎨 Tema adaptable (claro/oscuro)
+- 🌍 Soporte multilingüe
+
+---
 
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+Este proyecto está bajo licencia **GPL 3.0**. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+
+---
 
 ## 🙏 Agradecimientos
 
-- Gracias a todos los [contribuidores](https://opentune.netlify.app/contribuidores/contribuidores) que han hecho posible este proyecto
-- Material Design team por las guías de diseño
-- Comunidad de YouTube Music por el feedback
-
-## 📊 Estadísticas del Proyecto
-
-<div align="center">
-  
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Arturo254/OpenTune)
-![GitHub All Releases](https://img.shields.io/github/downloads/Arturo254/OpenTune/total)
-![GitHub issues](https://img.shields.io/github/issues/Arturo254/OpenTune)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Arturo254/OpenTune)
-
-</div>
+- Comunidad de OpenTune por el feedback y apoyo
+- Material Design Team por las excelentes guías de diseño
+- Netlify por el hosting gratuito
+- Todos los [contribuidores](https://github.com/Arturo254/OpenTune-Web/contributors) del proyecto
 
 ---
 
 <div align="center">
   
-**¿Te gusta OpenTune? ¡Dale una ⭐ al repositorio!**
+**¿Te gusta OpenTune? ¡Dale una ⭐ a ambos repositorios!**
+
+[⭐ OpenTune App](https://github.com/Arturo254/OpenTune) • [⭐ OpenTune Web](https://github.com/Arturo254/OpenTune-Web)
 
 © 2024 [Arturo.inc™](https://github.com/Arturo254). Todos los derechos reservados.
 
